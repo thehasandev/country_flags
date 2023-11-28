@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'pop': ['Poppins'],
         'roboto': ['Roboto'],
+      },
+      maxWidth: {
+        'container': '1320px',
       }
     },
   },
