@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import "./App.css"
 import one from "./assets/a.jpg"
+import axios from 'axios'
 
 
 function App() {
+  
+  useEffect(()=>{
+
+ let country =async()=>{
+  let data = await axios.get("https://restcountries.com/v3.1/all")
+     console.log(data);
+ }
+ country()
+
+
+
+  },[])
   return (
     <div className='max-w-container mx-auto'>
         <h1 className='font-bold font-roboto text-5xl my-5 text-[#111111] text-center'>Country App</h1>
