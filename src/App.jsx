@@ -11,7 +11,13 @@ function App() {
             <div>
               <img src={one} alt="" className='h-46 w-full' />
             </div>
-            
+            <div className='px-5'>
+               <h1 className='font-roboto font-bold text-3xl text-[#111111] text-center'>Bangledesh</h1>
+               <p className='font-roboto font-normal text-base text-[#111111]'>Capital: 14444444</p>
+               <p className='font-roboto font-normal text-base text-[#111111]'>Area: 14444444</p>
+               <p className='font-roboto font-normal text-base text-[#111111]'>discription</p>
+            </div>
+
            </div> 
         </div>
     </div>
